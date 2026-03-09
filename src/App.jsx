@@ -15,9 +15,9 @@ function App() {
         <Route path="explore" element={<Explore />} />
         <Route path="assets/:id" element={<AssetDetail />} />
         <Route path="learn" element={<Learn />} />
-        <Route path="signin" element={<SignIn />} />
-        <Route path="signup" element={<SignUp />} />
       </Route>
+      <Route path="/signin" element={<SignIn />} />
+      <Route path="/signup" element={<SignUp />} />
     </Routes>
   );
 }
